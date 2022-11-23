@@ -1,8 +1,10 @@
 # I2C-Rtc-Project
 
 
-implementation of communication with the Real-Time Clock connected via I2C bus
+implementation of communication with the Real-Time Clock connected via I2C bus.
+
 Parameters:
+
     • In the Cube IDE configure I2C1 on pins PB8, PB9
     • RTC I2C device address is 208 (0xD0)
     • Write 7 bytes via I2C to RTC, starting from memory address 0:
@@ -16,12 +18,14 @@ Parameters:
     • Implement an ADT called DateTime that holds all RTC data fields
     • Poll the RTC for data every second
     • parse the read bytes from RTC into DateTime, and print them in human-readable format ("YY:MM:DD:d:hh:mm: ss")
+    
 
 EXTRA:
     • replace the weekday to be a string ("Sunday", "Monday", etc.) instead of a number
     • set the YY:MM:DD:d:hh:mm: ss via UART, using strtok and atoi function
 
 Hardware setup:
+
 On the attached shield the LEDs are not connected to the corresponding pins. So we need to join them.
 Using provided connectors connect holes on the boards marked as L1 and L2 to pins 5 & 6 of the CN5 digital connector (see page 35 of Nucleo data sheet) PA5 & PA6.
 
