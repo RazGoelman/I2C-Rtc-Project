@@ -1,0 +1,4 @@
+../Core/Src/MyMain.c:15:6:mainloop	8	static
+../Core/Src/MyMain.c:45:6:securityTask	16	static
+../Core/Src/MyMain.c:72:5:_write	24	static
+../Core/Src/MyMain.c:77:6:HAL_TIM_PeriodElapsedCallback	16	static
