@@ -19,8 +19,6 @@ Parameters:
     • Poll the RTC for data every second
     • parse the read bytes from RTC into DateTime, and print them in human-readable format ("YY:MM:DD:d:hh:mm: ss")
     
-
-EXTRA:
     • replace the weekday to be a string ("Sunday", "Monday", etc.) instead of a number
     • set the YY:MM:DD:d:hh:mm: ss via UART, using strtok and atoi function
 
