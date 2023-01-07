@@ -1,6 +1,7 @@
 # I2C-Rtc-Project
 
 **Project goal**:
+
 implementation of communication with the Real-Time Clock connected via I2C bus.
 
 **Parameters**:
